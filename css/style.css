@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+#welcome {
+  background-color: beige;
+  background-image: url(../images/background.jpg);
+  background-position: -80px;
+  height: 800px;
+  width: 100%;
+  color: white;
+}
+
+.menu_container {
+  height: 80px;
+}
+
+.menu_container ul, img {
+  margin-top: 27px;
+}
+
+.logo {
+  width: 100px;
+  height: 20px;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.lower_container {
+  margin-top: 170px;
+}
+
+.lower_container p {
+  margin-bottom: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.lower_container h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+#button {
+  width: 200px;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: red;
+  text-align: center;
+  line-height: 70px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+#about {
+  height: 500px;
+  color: #b7b7b7;
+}
+
+#slogan {
+  text-transform: uppercase;
+  display: inline-block;
+  float: left;
+  width: 380px;
+  padding-top: 175px;
+  padding-bottom: 175px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+
+.container_about #articles article {
+  float: right;
+  width: 480px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  height: 100%;
+}
+
+
+#top_article {
+  padding-top: 125px;
+}
+
+#bottom_article {
+  padding: 26px 0 125px 0;
+}
+
+footer {
+  clear: both;
+  background-color: black;
+  height: 300px;
+}
+
+#footer_logo {
+  height: 90px;
+  width: 100%;
+}
+#footer_logo #logo {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer article {
+  width: 230px;
+  color: #474747;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  float: left;
+  margin-bottom: 90px;
+  cursor: pointer;
+}
+
+#copyright {
+  text-align: left;
+  float: right;
+  margin-bottom: 90px;
+  cursor: auto;
+  line-height: 30px;
+}
